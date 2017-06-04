@@ -2,6 +2,7 @@ import React from 'react'
 import {HashRouter as Router, Route} from 'react-router-dom'
 
 import Header from './Header'
+import Home from '../containers/Home'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -15,6 +16,7 @@ export default class App extends React.Component {
       <Router>
         <div className="container">
           <Header />
+          <Route path ='/' exact={true} component = {Home} />
         </div>
       </Router>
     )
