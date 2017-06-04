@@ -1,0 +1,147 @@
+body {
+  background-color: #2B2B2B;
+  color: #171717;
+  font-family: 'Roboto', sans-serif;
+}
+p,h2 {
+  color: #fff;
+}
+
+h1 {
+	color: #E6324B;
+	font-family: 'Roboto';
+	font-size: 70px;
+	font-weight: 300;
+	line-height: 78px;
+	margin-bottom: 72px;
+	max-width: 700px;
+	position: relative;
+}
+.libraryUser {
+  color: #fff;
+}
+
+h1:after {
+	background: #D55339;
+	content: '';
+	display: block;
+	height: 6px;
+	margin-top: 24px;
+}
+
+a {
+	color: #ffffff;	font-style: italic;
+}
+
+a:hover {
+	color: #bbb;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  border-style: solid;
+}
+
+.header {
+  background-color: #E6324B;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.logo {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 34pt;
+}
+.header a:visited{
+  color: #353634;
+}
+.header a:hover {
+  color: #fff;
+}
+.gameInfo {
+  background-color: #222;
+  padding: 5px;
+  width: 90%;
+}
+
+.gameArt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.profilePic {
+  height: 150px;
+  width: 150px;
+}
+
+.userInfo {
+  /*color: black;*/
+  margin: 5px 0 5px 0;
+  padding: 5px 0 5px 0;
+  border-style: solid;
+  background-color: #353634;
+  color: #2B2B2B;
+}
+.userInfo li {
+  color: #fff;
+}
+
+.userDetails {
+  padding: 5px 0 5px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.addGame {
+  background-color: white;
+}
+.addGameResult li:hover {
+  background: #ccc !important;
+  text-decoration: none;
+}
+.addGameResult a {
+  color: black;
+}
+.addGameResult a:active {
+  text-decoration: none;
+}
+
+.library {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.libraryItem {
+  margin: auto;
+  flex-basis: auto;
+  background-color: #353634;
+  padding: 5px;
+  font-weight: boldest;
+  margin-bottom: 5px;
+}
+.libraryItem a {
+  color: white;
+}
+
+
+
+/* Coolors Exported Palette - coolors.co/d55339-e3aa55-59adb7-f5d8d4-171717 */
+
+.colors {
+  color: #D55339; /** medium vermillion **/
+  color: #E3AA55; /** sunray **/
+  color: #59ADB7; /** verdigis - blue **/
+  color: #F5D8D4; /** champagne pink **/
+  color: #171717; /** creepy black **/
+}
